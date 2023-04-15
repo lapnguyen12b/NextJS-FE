@@ -23,5 +23,5 @@ $ docker volume create <volume-name>
 FE:
 ```bash
 $ docker build -t hala-fe .
-$ docker run -dp 8080:8080 --network hala-network <network-name> <container-service-name>
+$ docker run -dp 8080:8080 --network <network-name> <container-service-name>
 ```
